@@ -1,9 +1,6 @@
 'use strict';
 
-const { default: axios } = require("axios");
-
-
-document.querySelector("body > section > form").addEventListener("submit", function(event) {
+document.querySelector("body > section > div > form").addEventListener("submit", function(event) {
     event.preventDefault();
 
     console.log("THIS:", this);
